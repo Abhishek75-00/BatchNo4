@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-07T12:22:25 IST" name="Suite" finished-at="2023-08-07T12:22:51 IST" duration-ms="26849">
+    <groups>
+    </groups>
+    <test started-at="2023-08-07T12:22:25 IST" name="FirefoxBrowser" finished-at="2023-08-07T12:22:38 IST" duration-ms="13816">
+      <class name="test12.VerificationOfHomepage">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:test12.VerificationOfHomepage@2d7275fc]" started-at="2023-08-07T12:22:25 IST" name="LaunchBrowser" finished-at="2023-08-07T12:22:29 IST" duration-ms="4430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="createPOMobjects()[pri:0, instance:test12.VerificationOfHomepage@2d7275fc]" started-at="2023-08-07T12:22:29 IST" name="createPOMobjects" finished-at="2023-08-07T12:22:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMobjects -->
+        <test-method is-config="true" signature="LoginToApplication()[pri:0, instance:test12.VerificationOfHomepage@2d7275fc]" started-at="2023-08-07T12:22:29 IST" name="LoginToApplication" finished-at="2023-08-07T12:22:34 IST" duration-ms="5134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication -->
+        <test-method signature="ToverifytheTaskButton()[pri:0, instance:test12.VerificationOfHomepage@2d7275fc]" started-at="2023-08-07T12:22:34 IST" name="ToverifytheTaskButton" finished-at="2023-08-07T12:22:37 IST" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToverifytheTaskButton -->
+        <test-method is-config="true" signature="LogoutfromApplication(org.testng.ITestResult)[pri:0, instance:test12.VerificationOfHomepage@2d7275fc]" started-at="2023-08-07T12:22:37 IST" name="LogoutfromApplication" finished-at="2023-08-07T12:22:37 IST" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ToverifytheTaskButton status=SUCCESS method=VerificationOfHomepage.ToverifytheTaskButton()[pri:0, instance:test12.VerificationOfHomepage@2d7275fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutfromApplication -->
+        <test-method is-config="true" signature="ClearObject()[pri:0, instance:test12.VerificationOfHomepage@2d7275fc]" started-at="2023-08-07T12:22:37 IST" name="ClearObject" finished-at="2023-08-07T12:22:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearObject -->
+        <test-method is-config="true" signature="ClosedBrowser()[pri:0, instance:test12.VerificationOfHomepage@2d7275fc]" started-at="2023-08-07T12:22:37 IST" name="ClosedBrowser" finished-at="2023-08-07T12:22:38 IST" duration-ms="1058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedBrowser -->
+      </class> <!-- test12.VerificationOfHomepage -->
+    </test> <!-- FirefoxBrowser -->
+    <test started-at="2023-08-07T12:22:25 IST" name="ChromeBrowser" finished-at="2023-08-07T12:22:51 IST" duration-ms="26849">
+      <class name="test12.VerificationOfHomepage">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:test12.VerificationOfHomepage@2a4fb17b]" started-at="2023-08-07T12:22:25 IST" name="LaunchBrowser" finished-at="2023-08-07T12:22:27 IST" duration-ms="2071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="createPOMobjects()[pri:0, instance:test12.VerificationOfHomepage@2a4fb17b]" started-at="2023-08-07T12:22:27 IST" name="createPOMobjects" finished-at="2023-08-07T12:22:27 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMobjects -->
+        <test-method is-config="true" signature="LoginToApplication()[pri:0, instance:test12.VerificationOfHomepage@2a4fb17b]" started-at="2023-08-07T12:22:27 IST" name="LoginToApplication" finished-at="2023-08-07T12:22:32 IST" duration-ms="5383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication -->
+        <test-method signature="ToverifytheTaskButton()[pri:0, instance:test12.VerificationOfHomepage@2a4fb17b]" started-at="2023-08-07T12:22:32 IST" name="ToverifytheTaskButton" finished-at="2023-08-07T12:22:41 IST" duration-ms="8510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToverifytheTaskButton -->
+        <test-method is-config="true" signature="LogoutfromApplication(org.testng.ITestResult)[pri:0, instance:test12.VerificationOfHomepage@2a4fb17b]" started-at="2023-08-07T12:22:41 IST" name="LogoutfromApplication" finished-at="2023-08-07T12:22:42 IST" duration-ms="1303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ToverifytheTaskButton status=SUCCESS method=VerificationOfHomepage.ToverifytheTaskButton()[pri:0, instance:test12.VerificationOfHomepage@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutfromApplication -->
+        <test-method is-config="true" signature="LoginToApplication()[pri:0, instance:test12.VerificationOfHomepage@2a4fb17b]" started-at="2023-08-07T12:22:42 IST" name="LoginToApplication" finished-at="2023-08-07T12:22:43 IST" duration-ms="1452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication -->
+        <test-method signature="ToverifyTheReportsButton()[pri:0, instance:test12.VerificationOfHomepage@2a4fb17b]" started-at="2023-08-07T12:22:43 IST" name="ToverifyTheReportsButton" finished-at="2023-08-07T12:22:50 IST" duration-ms="6848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToverifyTheReportsButton -->
+        <test-method is-config="true" signature="LogoutfromApplication(org.testng.ITestResult)[pri:0, instance:test12.VerificationOfHomepage@2a4fb17b]" started-at="2023-08-07T12:22:50 IST" name="LogoutfromApplication" finished-at="2023-08-07T12:22:51 IST" duration-ms="1001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ToverifyTheReportsButton status=SUCCESS method=VerificationOfHomepage.ToverifyTheReportsButton()[pri:0, instance:test12.VerificationOfHomepage@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutfromApplication -->
+        <test-method is-config="true" signature="ClosedBrowser()[pri:0, instance:test12.VerificationOfHomepage@2a4fb17b]" started-at="2023-08-07T12:22:51 IST" name="ClosedBrowser" finished-at="2023-08-07T12:22:51 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedBrowser -->
+        <test-method is-config="true" signature="ClearObject()[pri:0, instance:test12.VerificationOfHomepage@2a4fb17b]" started-at="2023-08-07T12:22:51 IST" name="ClearObject" finished-at="2023-08-07T12:22:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearObject -->
+      </class> <!-- test12.VerificationOfHomepage -->
+    </test> <!-- ChromeBrowser -->
+  </suite> <!-- Suite -->
+</testng-results>

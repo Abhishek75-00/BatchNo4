@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extent.ExtentReports_For_ActiTime"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="ChromeBrowser(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="test12.VerificationOfHomepage">
+        <methods>
+          <include name="LogoutfromApplication"/>
+          <include name="LaunchBrowser"/>
+          <include name="LoginToApplication"/>
+          <include name="ClearObject"/>
+          <include name="ClosedBrowser"/>
+          <include name="ToverifyTheReportsButton"/>
+          <include name="createPOMobjects"/>
+        </methods>
+      </class> <!-- test12.VerificationOfHomepage -->
+    </classes>
+  </test> <!-- ChromeBrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->

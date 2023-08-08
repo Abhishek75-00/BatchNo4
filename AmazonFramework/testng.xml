@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+<listeners>
+<listener class-name="extent.ExtentReports_For_ActiTime"/>
+</listeners>
+<test name="FirefoxBrowser">
+  <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="test12.VerificationOfHomepage">
+      <methods>
+      <include name="ToverifytheTaskButton"/>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  <test  name="ChromeBrowser">
+  <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="test12.VerificationOfHomepage">
+      <methods>
+      <include name="ToverifytheTaskButton"/>
+      <include name="ToverifyTheReportsButton"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
