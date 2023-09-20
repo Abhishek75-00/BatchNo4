@@ -4,6 +4,22 @@
   <listeners>
     <listener class-name="extent.ExtentReports_For_ActiTime"/>
   </listeners>
+  <test thread-count="2" parallel="tests" name="FirefoxBrowser(failed)">
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="test12.VerificationOfHomepage">
+        <methods>
+          <include name="LogoutfromApplication"/>
+          <include name="LaunchBrowser"/>
+          <include name="ToverifytheTaskButton"/>
+          <include name="LoginToApplication"/>
+          <include name="ClearObject"/>
+          <include name="ClosedBrowser"/>
+          <include name="createPOMobjects"/>
+        </methods>
+      </class> <!-- test12.VerificationOfHomepage -->
+    </classes>
+  </test> <!-- FirefoxBrowser(failed) -->
   <test thread-count="2" parallel="tests" name="ChromeBrowser(failed)">
     <parameter name="browserName" value="Chrome"/>
     <classes>
@@ -11,6 +27,7 @@
         <methods>
           <include name="LogoutfromApplication"/>
           <include name="LaunchBrowser"/>
+          <include name="ToverifytheTaskButton"/>
           <include name="LoginToApplication"/>
           <include name="ClearObject"/>
           <include name="ClosedBrowser"/>

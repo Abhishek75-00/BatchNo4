@@ -73,7 +73,7 @@ public class VerificationOfHomepage extends Base {
 	@BeforeMethod  // login  /// object create
 	public void LoginToApplication() {
 		System.out.println("beforeMethod");
-		driver.get("https://online.actitime.com/marolix4/login.do");
+		driver.get("https://online.actitime.com/marolix2/login.do");
 
 		lp =new LoginPage(driver);
 		
@@ -108,7 +108,7 @@ public class VerificationOfHomepage extends Base {
 	//Boolean result=false;
 	
 	//Assert.assertFalse(result);
-	soft.assertEquals("https://online.actitime.com/marolix4/tasks/tasklist.do", "https://online.actitime.com/marolix4/tasks/tasklist.do");
+	soft.assertEquals("https://online.actitime.com/marolix2/tasks/tasklist.do", "https://online.actitime.com/marolix2/tasks/tasklist.do");
 //	if(url.equals("https://online.actitime.com/marolix4/tasks/tasklist.do")&& title.equals("actiTIME - Task List")) {
 //		System.out.println("Pass");
 //	}
@@ -128,7 +128,7 @@ public class VerificationOfHomepage extends Base {
 		String Title1=driver.getTitle();
 		System.out.println(url1);
 		System.out.println(Title1);
-		//Assert.assertEquals("https://online.actitime.com/marolix4/reports/dashboard.do","https://online.actitime.com/marolix4/reports/dashboard.do");
+		Assert.assertEquals("https://online.actitime.com/marolix2/reports/dashboard.do","https://online.actitime.com/marolix2/reports/dashboard.do");
 //		if(url1.equals("https://online.actitime.com/marolix4/reports/dashboard.do")&&Title1.equals("actiTIME - Reports Dashboard")) {
 //			System.out.println("Pass");
 //		}
